@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'cars.apps.CarsConfig',
     'ckeditor',
     'multiselectfield',
+    'django.contrib.humanize',
 ]
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 MIDDLEWARE = [
